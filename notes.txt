@@ -1,0 +1,56 @@
+MAIN BODY: 
+    display flex
+    everythin is flex-grow 2
+    apart from footer which is flex grow 1
+
+    Dark Blue Banner across the top :
+        Make it a display: flex
+        flex-rection: column
+        create a header div:
+            --> split into two separate display: flex
+            --> align logo to flex- start
+            --> align links to flex-end
+        flex-grow: 1
+
+        create a banner-main div
+        flex-grow 4
+        flex wrap wrap
+        inside this have: block with:
+            --> header  | ontop of each other
+            --> para    | 
+        also this image
+
+    mid section:
+        another flex column 
+        top olumn with heading flex-grow 1
+        bottom column with a flex: row  flex-grow 4
+            ---> this will have a flex: row
+            --->  the children of this will be images with text underneath
+        
+    bottom-mid:
+        boring text section/ Just a p div with font centered
+
+    call to action section 
+
+
+    footer
+
+body 
+    top-banner 
+        header / links 
+        title / photo 
+
+    white-banner 
+        photo/photo/photo/photo
+        quote/quote/quote/quote
+
+    quote-banner 
+        random text
+
+
+    call-to-action 
+        blue box
+            call to action / sign up button 
+
+    footer
+        random text
